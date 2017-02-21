@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Tablas</title>
+    <!-- Estilo interno 
+    <style> 
+        tr { background-color: blue; }
+    </style>
+    -->
+    <!-- Estilo externo -->
+    <link href="estilos.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>Ejemplo de tablas en HTML</h1>
     <table>
         <tfoot>
-            <tr>
+            <tr class="verde">
                 <td>Total</td>
                 <td>28</td>
             </tr>
         </tfoot>
    
         <thead>
-            <tr>
+            <!-- Estilo en linea (no recomendado)
+            <tr style="background-color: green;">
+                -->
+            <tr class="verde">
                 <th>Materia</th>
                 <th>Créditos</th>
             </tr>
@@ -30,11 +40,14 @@
                 <td>Objetos</td>
                 <td>10</td>
             </tr>
-            <tr>
+            <tr >
                 <td>Tecnologías Web</td>
                 <td>8</td>
             </tr>
         </tbody>        
     </table>
+    <!-- Ejercicio: crear una tabla de su horario 
+    con una columna para la hora y otra columna
+    para cada día de la semana -->
 </body>
 </html>

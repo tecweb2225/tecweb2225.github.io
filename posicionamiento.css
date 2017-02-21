@@ -1,0 +1,23 @@
+#caja1  {
+    /* Comentarios */
+    background-color: yellow;
+    position: fixed;
+    z-index: 1;
+    height: 100px;
+    top: 200px;
+}
+
+#caja2  {
+    background-color:orange;
+    position: absolute;
+    left: 50px;
+    top: 80px;      height: 1000px;
+}
+
+p {
+    position: absolute;
+}
+
+#caja1, #caja2 {
+    width: 100px;
+}
