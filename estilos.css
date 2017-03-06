@@ -1,7 +1,39 @@
-table {
-    background-color: yellow;
+body {
+    background-color: #9E9697;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.verde {
-    background-color: green;    
+#principal {
+    background-color:  #E1D6D7; 
+    width: 600px;
+    margin: 5em auto;
+    border-radius: 1em;    
+    padding: 30px;
+}
+
+h1 h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li > a {
+    color: #444141;
+    padding: 10px;
+    border-radius: 0.5em;   
+    display: block; 
+   
+    width: 300px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+li > a:hover {
+  background-color: #69D2E7;
 }
