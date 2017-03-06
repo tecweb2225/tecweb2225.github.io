@@ -13,10 +13,6 @@ body {
     padding: 30px;
 }
 
-h1 h2 {
-    text-align: center;
-}
-
 ul {
     list-style: none;
 }
@@ -25,8 +21,7 @@ li > a {
     color: #444141;
     padding: 10px;
     border-radius: 0.5em;   
-    display: block; 
-   
+    display: block;    
     width: 300px;
 }
 
